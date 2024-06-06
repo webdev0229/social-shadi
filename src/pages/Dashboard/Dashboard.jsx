@@ -1,6 +1,7 @@
 import Navbar from "./Navbar"
 import Banner from "./Banner"
 import Story from "./Story"
+import Footer from "../Footer"
 
 const Dashboard = () => {
   return (
@@ -8,6 +9,7 @@ const Dashboard = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <Story></Story>
+     <Footer></Footer>
     </div>
   )
 }

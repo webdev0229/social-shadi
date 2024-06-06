@@ -5,6 +5,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+ 
   background-image:
     radial-gradient(circle at center, #ffffff, #f0f0f0 30%, #e0e0e0 60%, #d0d0d0 90%),
     radial-gradient(circle at center, rgba(255, 255, 255, 0.6), rgba(240, 240, 240, 0.6) 30%, rgba(224, 224, 224, 0.6) 60%, rgba(208, 208, 208, 0.6) 90%);
@@ -17,6 +18,14 @@ body {
 
 .banner-hover:hover {
   transform: scale(1.02);
+}
+.login-hover {
+  transition: 500ms;
+}
+
+.login-hover:hover {
+  transform: scale(1.02);
+  color: #831129;
 }
 
 .custom-input {

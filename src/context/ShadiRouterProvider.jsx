@@ -4,7 +4,7 @@ import Dashboard from "../pages/Dashboard/Dashboard"
 const ShadiRouterProvider = () => {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/social-shadi/",
       element: <Dashboard></Dashboard>
     }
   ])

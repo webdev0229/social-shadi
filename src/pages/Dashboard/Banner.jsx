@@ -5,7 +5,14 @@ import { InputText } from "primereact/inputtext";
 const Banner = () => {
   const [registerVisible, setRegisterVisible] = useState(false);
   const [value, setValue] = useState("");
-
+  const [value1, setValue1] = useState("");
+  const [value2, setValue2] = useState("");
+  const [value3, setValue3] = useState("");
+  const [value4, setValue4] = useState("");
+  const [value5, setValue5] = useState("");
+  const [value6, setValue6] = useState("");
+  const [value7, setValue7] = useState("");
+  const [value8, setValue8] = useState("");
   return (
     <div
       style={{
@@ -23,6 +30,15 @@ const Banner = () => {
         headerStyle={{ color: "#831129" }}
         onHide={() => {
           setRegisterVisible(false);
+          setValue("");
+          setValue1("");
+          setValue2("");
+          setValue3("");
+          setValue4("");
+          setValue5("");
+          setValue6("");
+          setValue7("");
+          setValue8("");
         }}
       >
         <div className="p-4">
@@ -40,8 +56,8 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value1}
+              onChange={(e) => setValue1(e.target.value)}
             />
           </div>
           <div className="p-2 flex  flex-column">
@@ -49,8 +65,8 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value2}
+              onChange={(e) => setValue2(e.target.value)}
             />
           </div>
           <div className="p-2 flex  flex-column">
@@ -58,8 +74,8 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value3}
+              onChange={(e) => setValue3(e.target.value)}
             />
           </div>
           <div className="p-2 flex  flex-column">
@@ -67,8 +83,8 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value4}
+              onChange={(e) => setValue4(e.target.value)}
             />
           </div>
           <div className="p-2 flex  flex-column">
@@ -76,8 +92,8 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value5}
+              onChange={(e) => setValue5(e.target.value)}
             />
           </div>
           <div className="p-2 flex  flex-column">
@@ -85,8 +101,8 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value6}
+              onChange={(e) => setValue6(e.target.value)}
             />
           </div>
           <div className="p-2 flex  flex-column">
@@ -94,8 +110,8 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value7}
+              onChange={(e) => setValue7(e.target.value)}
             />
           </div>
           <div className="p-2 flex  flex-column">
@@ -103,13 +119,13 @@ const Banner = () => {
 
             <InputText
               style={{ height: "40px" }}
-              value={value}
-              onChange={(e) => setValue(e.target.value)}
+              value={value8}
+              onChange={(e) => setValue8(e.target.value)}
             />
           </div>
         </div>
         <div className="flex p-4 justify-content-center">
-        <button className="custom-btn cursor-pointer ">Register</button>
+          <button className="custom-btn cursor-pointer ">Register</button>
         </div>
       </Dialog>
       <div style={{ color: "white" }} className="w-full flex">
